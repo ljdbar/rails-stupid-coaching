@@ -1,0 +1,14 @@
+<div class="border-start border-5" >
+  <p><%= "#{@question}" %></p>
+  <p><em><%= "-#{@author_one}" %></em></p>
+</div>
+
+<div class="border-start border-5 bg-warning" style="--bs-bg-opacity: .1;">
+  <p><%= "#{@answer}" %></p>
+  <p><em><%= "-#{@author_two}" %></em></p>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
+
+
+<%# #FFFEE1 %>
